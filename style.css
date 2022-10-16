@@ -1,0 +1,64 @@
+.logomegan {
+  width: 100px;
+}
+
+.videom1 iframe {
+  width: 50%;
+}
+
+.gmap_canvas {
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form .email {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 15px;
+}
+
+.form .text {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 15px;
+}
+
+.form .number {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 15px;
+}
+
+.form .text-area {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 15px;
+}
+
+footer {
+  background-color: #b9e1f7;
+  display: flex;
+  justify-content: center;
+}
