@@ -1,6 +1,6 @@
     <?php
-    // if(isset($_SESSION['login'])) {
-
+    / / if(isset($_SESSION['login'])) 
+        session_start();
         if(!$_SESSION['login']) {
             if(!$_SESSION['login']) {
                 $_SESSION['error'] = "Silahkan login terlebih dahulu";
@@ -8,6 +8,7 @@
                 exit();
             }
         }
+
         if(isset($_COOKIE['login'])) {
             if($_COOKIE['login']) {
                 require("config/connector.php");
